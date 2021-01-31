@@ -1,0 +1,15 @@
+[*]
+tab_width = 4
+indent_size = 4
+indent_style = tab
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.{html,vue}]
+tab_width = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.yml]
+indent_style = space

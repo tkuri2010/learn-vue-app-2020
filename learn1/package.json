@@ -1,0 +1,26 @@
+{
+  "name": "try_scalable_app_learn1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "webpack-dev-server --config webpack.dev.js"
+  },
+  "keywords": [
+    "vue",
+    "typescript"
+  ],
+  "author": "tkur",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^8.0.7",
+    "typescript": "^4.0.5",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.4",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.3.0"
+  }
+}

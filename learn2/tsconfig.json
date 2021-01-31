@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"target": "ES2015",
+		"module": "ESNext",
+		"sourceMap": true,
+		"outDir": "public_tsc",
+		"moduleResolution": "Node",
+		"declaration": true,
+		"declarationDir": "./types",
+		"experimentalDecorators":true,
+
+		"baseUrl": ".",
+		"paths": {
+			"@/*": [
+				"src/*"
+			]
+		}
+	},
+	"include": [
+		"src/**/*",
+		"test/**/*"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}

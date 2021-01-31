@@ -1,0 +1,14 @@
+__*
+.hgignore
+.hg/
+
+node_modules/
+npm_debug.log
+.vs/
+.vscode/*
+
+public/assets/*
+
+/learn*.md
+
+
