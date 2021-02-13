@@ -8,13 +8,6 @@ config.rawError = true;
 })
 export class AppModule extends VuexModule {
 
-	/**
-	 * セッションID...今回のサンプルでは未使用だが、この値はログイン時にサーバが複雑な値を生成して
-	 * サーバと通信する際には常に照合を行うべき。
-	 */
-	sessionId = 'asdf-qwer-xxxx-xxxx';
-
-
 	busyLevel = 0;
 
 

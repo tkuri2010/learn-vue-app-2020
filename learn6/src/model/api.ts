@@ -1,7 +1,5 @@
 //
 // このファイルは例えば OpenAPI Generator などを用いて自動生成してもよい
-// ... という想定だが、現在の版はテスト用データをハードコードしており
-// OpenAPI Generator での自動生成は適さない。
 //
 import * as mm from '@/model';
 

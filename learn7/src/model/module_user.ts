@@ -96,6 +96,7 @@ export class UserModule extends VuexModule {
 	@Action
 	updateDataFormAsync(pf: Partial<UserEditForm>) {
 		this._commitDataForm(pf);
+		return Promise.resolve();
 	}
 
 

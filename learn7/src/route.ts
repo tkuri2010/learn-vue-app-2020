@@ -1,4 +1,4 @@
-import Vue from 'vue';
+import { Vue } from 'vue-property-decorator';
 import VueRouter, { RouteConfig } from 'vue-router';
 
 Vue.use(VueRouter);

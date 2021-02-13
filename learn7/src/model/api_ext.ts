@@ -25,7 +25,7 @@ export const executeHttpAsync = async (args: HttpArgs): Promise<unknown> => {
 
 		// 本来なら axios など外部ライブラリを活用したい
 		return await new Promise<unknown>(resolve => {
-			var xhr = new XMLHttpRequest();
+			let xhr = new XMLHttpRequest();
 			xhr.addEventListener('load', (_ev: ProgressEvent<XMLHttpRequestEventTarget>) => {
 				resolve(JSON.parse(xhr.responseText));
 			});
